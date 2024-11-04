@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnul de Apă din Chișinău</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #6b8e23;
+            padding: 1.5em;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section {
+            margin-bottom: 2em;
+            display: flex;
+            gap: 1em;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        h2 {
+            color: #6b8e23;
+            width: 100%;
+        }
+
+        .description {
+            line-height: 1.6;
+            flex: 1;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            height: 200px; /* Increased height */
+            width: auto;   /* Maintain aspect ratio */
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .fun-facts {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .fun-fact {
+            background-color: #e6f2d3;
+            padding: 0.8em;
+            border-radius: 5px;
+            font-style: italic;
+            flex: 1;
+            min-width: 200px;
+            font-size: 0.95em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fun-facts img {
+            height: 80px; /* Adjust height for fun facts */
+            width: auto;   /* Maintain aspect ratio */
+            border-radius: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #6b8e23;
+            color: #fff;
+            padding: 0.6em 1.2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #556b2f;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Turnul de Apă din Chișinău</h1>
+        <p>O privire în istoria și frumusețea acestui monument iconic</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <div class="description">
+                <h2>Istoric</h2>
+                <p>Turnul de Apă din Chișinău, construit în secolul XIX, a asigurat alimentarea orașului cu apă potabilă. Construcția din piatră și cărămidă, simbolizează arhitectura clasică industrială și a rămas un punct de referință al orașului până în prezent.</p>
+                <p>După modernizări, turnul a devenit un monument istoric. În prezent, turnul este și muzeu, oferind vizitatorilor o privire asupra istoriei orașului și o vedere panoramică unică.</p>
+            </div>
+            <img src="Vedere_Generala.jpg" alt="Turnul de Apă - vedere generală" style="height: 300px; width: 300px;"/>
+        </section>
+
+        <section class="section gallery">
+            <h2>Galerie Foto</h2>
+            <img src="Interior.jpg" alt="Vedere din interior">
+            <img src="Exterior.jpg" alt="Arhitectura exterioară">
+            <img src="Turnul_Noaptea.jpg" alt="Turnul noaptea">
+            <img src="Vederea_Apropiere.jpg" alt="Vedere din apropiere">
+        </section>
+
+        <section class="section fun-facts">
+            <h2>Fapte interesante</h2>
+            <div class="fun-fact">
+                <img src="Turnul_Supravietuitor.jpg" alt="Imagine Turnul supraviețuitor">
+                <p>Turnul a supraviețuit bombardamentelor din al Doilea Război Mondial.</p>
+            </div>
+            <div class="fun-fact">
+                <img src="Muzeu_Modern.jpg" alt="Imagine muzeu modern">
+                <p>Astăzi, turnul este un muzeu ce prezintă istoria Chișinăului.</p>
+            </div>
+            <div class="fun-fact">
+                <img src="Piatra_Original.jpg" alt="Imagine structura originală">
+                <p>Structura originală din cărămidă a rămas intactă din secolul XIX.</p>
+            </div>
+            <div class="fun-fact">
+                <img src="Apeduct.jpg" alt="Imagine apeduct vechi">
+                <p>Turnul a alimentat orașul cu apă timp de decenii.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="description">
+                <h2>Vizitați Turnul</h2>
+                <p>Descoperiți Turnul de Apă din Chișinău și bucurați-vă de o lecție de istorie și arhitectură unică în oraș!</p>
+                <a class="btn" href="https://visit.chisinau.md/obiective_turistice/muzeul-orasului-chisinau/" target="_blank">Mai multe detalii</a>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
